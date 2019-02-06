@@ -1,0 +1,12 @@
+#python
+#change number in time.sleep() for faster or slower
+
+import random
+import time
+
+swivelcut = ["Thumb", "Index"]
+n = 0
+while n < 10:
+    print(random.choice(swivelcut))
+    time.sleep(5)
+    n += 1
