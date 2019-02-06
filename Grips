@@ -1,0 +1,12 @@
+#python
+#change number in time.sleep() for faster or slower
+
+import random
+import time
+
+grips = ["Straddle", "Biddle Full", "Biddle I+T", "Z-S", "Z-B", "Corner"]
+n = 0
+while n < 10:
+    print(random.choice(grips))
+    time.sleep(5)
+    n += 1
